@@ -1,14 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import HelloWorld from "./components/HelloWorld";
 
 function App() {
+  
   return (
-    <div classname="App">
-      <h1>Olá React!</h1>
-      <p>Meu primeiro App</p>
-    </div>
-    
-  )
+    <HelloWorld />
+        
+  );
 }
 
 export default App;
